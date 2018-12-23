@@ -1,2 +1,0 @@
-pgrep -f icloudpd && echo "icloudpd is already running." && exit
-icloudpd /mnt --username=papercat810420@gmail.com --password=Gun3Chuang2 --recent 50 --auto-delete
