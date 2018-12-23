@@ -1,9 +1,0 @@
-#!/bin/bash
-# Make sure it's not already running
-pgrep -f icloudpd && echo "icloudpd is already running." && exit
-
-/usr/local/bin/icloudpd /mnt \
-  --username test@gmail.com \
-  --password test \
-  --recent 200 \
-  --auto-delete
