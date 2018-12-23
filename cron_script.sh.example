@@ -1,5 +1,0 @@
-icloudpd /mnt \
-  --username papercat810420@gmail.com \
-  --password Gun3Chuang2 \
-  --recent 80 \
-  --auto-delete
